@@ -1,0 +1,89 @@
+body {
+  padding: 50px 50px;
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+h1 a, h1 a:visited {
+  color: indianred;
+}
+
+h1 {
+  margin-bottom: 10px;
+  font-size: 2.5rem;
+}
+
+h2 {
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+h2 a {
+  color: black;
+}
+
+nav a {
+  color: lightgrey;
+  padding-bottom: 3px;
+  border-bottom: 1px solid lightgrey;
+  margin: 10px 10px 0 0;
+  display: inline-block;
+}
+
+h3 {
+  margin-top: 50px;
+  margin-bottom: 10px;
+  color: lightgrey;
+  font-size: 1.8rem;
+}
+
+.image {
+  width: 100%;
+}
+
+h4 {
+  text-align: right;
+}
+
+h4 a {
+  color: indianred;
+  font-weight: bold;
+}
+
+.first-letter {
+  font-size: 5rem;
+  color: lightgrey;
+  float: left;
+  line-height: 4rem;
+  padding: 0 10px 0 0;
+}
+
+.the-rest {
+  float: left;
+}
+
+article {
+  border-bottom: 1px solid lightgrey;
+
+}
+
+footer {
+  margin-top: 50px;
+}
+
+footer a {
+  padding-right: 5px;
+  color: indianred;
+}
+
+footer a:not(:last-child) {
+  border-right: 1px solid lightgrey;
+}
+
+.copyright {
+  color: lightgrey;
+}
