@@ -1,0 +1,113 @@
+html, body {
+    font-family: 'Raleway', sans-serif;
+}
+
+h1, h2, h3 {
+    margin:0;
+}
+
+body {
+    padding: 4em;
+}
+
+.title {
+    color: #f22;
+    font-weight: 300;
+    text-decoration: none;
+    font-size: 2.5em;
+}
+
+.subtitle {
+    color: #444;
+    font-size: 2em;
+    margin-top: 1em;
+}
+
+nav > a {
+    color: #bbb;
+    font-size: 1.75em;
+    display: inline-block;
+    padding: 1em 1em 0 0;
+}
+
+article {
+    width: 100%;
+    margin: 2.5em 0 0 0;
+    padding: 0;
+}
+
+article:hover {
+    background-color:#ddd;
+}
+
+after:after {
+    content:"";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 0.5em;
+    border-top: 1px solid black;
+    z-index: -1;
+}
+
+.article-text {
+    color: #888;
+    line-height: 1.5em;
+}
+
+p::first-letter {
+    color: #ccc;
+    font-size:5em;
+    float:left;
+    line-height: 1em;
+    margin: 0em 0.2em 0 0;
+}
+
+.article-date {
+    color: #aaa;
+    font-size: 2.3em;
+    margin-bottom:0.25em;
+}
+
+.article-title {
+    text-decoration: none;
+    color: #444;
+    line-height: 1.5em;
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+.article-hero-image {
+    width: 100%;
+    height: auto;
+}
+
+.article-further-link {
+    display:block;
+    float:right;
+    color:#f00;
+    text-decoration: none;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+footer > nav > a {
+    color: #f00;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+footer > nav > a::after {
+    content: "    |";
+    color: #ccc;
+}
+
+.copyright-info {
+    color: #aaa;
+}

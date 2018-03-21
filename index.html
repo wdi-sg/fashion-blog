@@ -7,12 +7,13 @@
 <head>
   <meta charset="utf-8">
   <title>Sartre’s List</title>
-  <!-- attach link to css stylesheet here -->
+  <link href="https://fonts.googleapis.com/css?family=Raleway:300" rel="stylesheet"> 
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
-    <h1><a href="index.html">Sartre’s List</a></h1>
-    <h2>Better-Dressed People</h2>
+    <h1><a class="title" href="index.html">Sartre’s List</a></h1>
+    <h2 class="subtitle">Better-Dressed People</h2>
     <nav>
       <a href="#">Women’s</a>
       <a href="#">Men’s</a>
@@ -22,22 +23,36 @@
       <a href="#">About</a>
     </nav>
   </header>
-
-  <article>
-    <h3>11/12/13</h3>
-    <h2><a href="#">On the Street in Brooklyn</a></h2>
-    <img src="INSERT IMG and PATH">
-    <p>Cray culpa stumptown, flexitarian ex Odd Future do fugiat Wes Anderson proident 3 wolf moon officia bitters small batch. Et consequat do, nulla you probably haven’t heard of them High Life scenester. Vinyl fugiat High Life, kogi do VHS in aliqua lo-fi leggings gentrify Neutra tumblr. Odio vegan PBR, Marfa forage blue bottle try-hard readymade meggings retro delectus Echo Park. Ugh consectetur farm-to-table forage, laboris blue bottle McSweeney’s tattooed excepteur yr. Magna ut Schlitz flexitarian, vinyl craft beer proident yr forage 8-bit ethical sustainable placeat retro. Officia pickled beard, adipisicing gluten-free sint craft beer quis thundercats id 3 wolf moon fashion axe.</p>
-    <h4><a href="#">Continues...</a></h4>
-  </article>
-
-  <article>
-    <h3>11/11/13</h3>
-    <h2><a href="#">Vintage in Vogue</a></h2>
-    <img src="INSERT IMG and PATH">
-    <p>Selfies sunt Tumblr, delectus small batch DIY umami sint. Polaroid chambray selfies McSweeney's Cosby sweater, Pitchfork tattooed assumenda Wes Anderson Blue Bottle twee Carles ennui. Nisi locavore fugiat sapiente salvia aliqua. Shoreditch kogi exercitation fashion axe. Wolf semiotics Pinterest, laboris quis master cleanse tousled small batch street art bespoke fingerstache dreamcatcher ethical labore. Dreamcatcher iPhone typewriter, tote bag four loko fanny pack master cleanse organic PBR reprehenderit actually. Craft beer drinking vinegar wayfarers, pork belly narwhal pariatur polaroid cupidatat in 8-bit distillery anim literally.</p>
-    <h4><a href="#">Continues...</a></h4>
-  </article>
-
+  <main>
+    <article class="clearfix">
+      <h3 class="article-date">11/12/13</h3>
+      <h2><a class="article-title" href="#">On the Street in Brooklyn</a></h2>
+      <img class="article-hero-image" src="fashion_photo.jpeg">
+      <p class="article-text">Cray culpa stumptown, flexitarian ex Odd Future do fugiat Wes Anderson proident 3 wolf moon officia bitters small batch. Et consequat do, nulla you probably haven’t heard of them High Life scenester. Vinyl fugiat High Life, kogi do VHS in aliqua lo-fi leggings gentrify Neutra tumblr. Odio vegan PBR, Marfa forage blue bottle try-hard readymade meggings retro delectus Echo Park. Ugh consectetur farm-to-table forage, laboris blue bottle McSweeney’s tattooed excepteur yr. Magna ut Schlitz flexitarian, vinyl craft beer proident yr forage 8-bit ethical sustainable placeat retro. Officia pickled beard, adipisicing gluten-free sint craft beer quis thundercats id 3 wolf moon fashion axe.</p>
+      <h4><a class="article-further-link" href="#">Continues...</a></h4>
+    </article>
+  
+    <article class="clearfix">
+      <h3 class="article-date">11/11/13</h3>
+      <h2><a class="article-title" href="#">Vintage in Vogue</a></h2>
+      <img class="article-hero-image" src="fashion_photo2.jpeg">
+      <p class="article-text">Selfies sunt Tumblr, delectus small batch DIY umami sint. Polaroid chambray selfies McSweeney's Cosby sweater, Pitchfork tattooed assumenda Wes Anderson Blue Bottle twee Carles ennui. Nisi locavore fugiat sapiente salvia aliqua. Shoreditch kogi exercitation fashion axe. Wolf semiotics Pinterest, laboris quis master cleanse tousled small batch street art bespoke fingerstache dreamcatcher ethical labore. Dreamcatcher iPhone typewriter, tote bag four loko fanny pack master cleanse organic PBR reprehenderit actually. Craft beer drinking vinegar wayfarers, pork belly narwhal pariatur polaroid cupidatat in 8-bit distillery anim literally.</p>
+      <h4><a class="article-further-link" href="#">Continues...</a></h4>
+    </article>
+  </main>
+  <footer>
+      <nav>
+          <a href="#">Home</a>
+          <a href="#">Women’s</a>
+          <a href="#">Men’s</a>
+          <a href="#">On the Street</a>
+          <a href="#">The Catwalk</a>
+          <a href="#">AdWatch</a>
+          <a href="#">About</a>
+        </nav>
+    <div class="copyright-info">
+      &copy; 2013 Valet Industries, Inc.
+    </div>
+  </footer>
 </body>
 </html>
