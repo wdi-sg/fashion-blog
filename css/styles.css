@@ -50,28 +50,28 @@ h2 a{
 }
 
 p::first-letter { 
-    font-size: 8em;
-    color: lightgrey;
-    float: left;
-    line-height: .7em;
-    margin-right: 5px;
+	font-size: 8em;
+	color: lightgrey;
+	float: left;
+	line-height: .7em;
+	margin-right: 5px;
 }
 
 article p{
-padding: 20px 0 20px 0 ;
+	padding: 20px 0 20px 0 ;
 }
 
 article h4{
-    overflow: auto;
+	overflow: auto;
 }
 
 article h4 a {
-color:red;
-float: right;
+	color:red;
+	float: right;
 }
 
 article {
-border-bottom: lightgrey solid 1px;	
+	border-bottom: lightgrey solid 1px;	
 }
 
 
@@ -87,13 +87,13 @@ footer nav a{
 }
 
 footer nav a:after{
-content: "|";
-margin-left: 5px;
-color:red;
+	content: "|";
+	margin-left: 5px;
+	color:red;
 }
 
 footer nav a:last-child:after{
-content: "";
+	content: "";
 }
 
 .copyright{
@@ -102,8 +102,17 @@ content: "";
 }
 
 @media screen and (max-width: 768px) {
-    .row {
-border-left: none;
-padding: 0;
-    }
+	.row {
+		border-left: none;
+		padding: 0;
+		max-width: 90%;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.row {
+		border-left: none;
+		padding: 0;
+		max-width: 95%;
+	}
 }
