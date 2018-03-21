@@ -1,0 +1,64 @@
+img {
+	width: 95%;
+	height: auto;
+}
+p {
+	color: grey;
+	max-width: 95%;
+	line-height: 25px;
+	font-size: 20px;
+}
+p::first-letter {
+	font-size: 90px;
+	float: left;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	line-height: 80px;
+}
+#mainTitle {
+	text-decoration: none;
+	color: salmon;
+}
+#subTitle {
+	font-weight: 500;
+}
+.navMenu {
+	display: block;
+}
+#womenButton {
+	padding-left: 0;
+}
+.navButton {
+	color: lightgrey;
+	font-size: 28px;
+	padding: 8px;
+	text-align: left;
+}
+.date {
+	color: lightgrey;
+	text-decoration: none;
+	font-weight: 500;
+	font-size: 30px;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+.topicTitle {
+	text-decoration: none;
+	font-size: 30px;
+	color: black;
+	font-weight: 500;
+	margin-top: 0;
+	padding-top: 0;
+}
+.conButBlock {
+	text-align: right;
+	width: 95%;
+	border-bottom: solid;
+	border-bottom-color: lightgrey;
+	padding-bottom: 30px;
+}
+.contentButton {
+	text-decoration: none;
+	color: salmon;
+	font-size: 20px;
+}
