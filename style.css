@@ -1,0 +1,74 @@
+.container {
+	border-left: 5px solid #cbc9c5;
+	padding: 1vw;
+}
+
+h1 a {
+		color: #f20f23;
+		font-size: 120%
+}
+
+header {
+		padding: 2rem 0rem 2rem 2rem;
+		font-family: 'Roboto', sans-serif;
+		font-size: 120%;
+}
+
+header nav a {
+		color: #cbc9c5;
+		text-decoration: underline;
+		font-size: 1.5rem;
+		display: inline-block;
+		padding-right: 1.5vw;
+		font-family: 'Open Sans', sans-serif;
+}
+
+span{
+	color: #cbc9c5;
+	text-decoration-color: #cbc9c5;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 2.5rem;
+}
+
+h2 a{
+	color: black;
+	font-style: normal;
+}
+
+p {
+	font-family: 'Raleway', sans-serif;
+}
+
+article p::first-letter {
+		font-size: 400%;
+		color: #cbc8c5;
+		float: left;
+		padding-right: 1rem;
+}
+
+h4 {
+		float: right;
+}
+
+footer {
+		padding: 1rem 0rem 2rem 2rem;
+}
+
+footer a {
+		color: #f12929;
+		font-family: 'Open Sans', sans-serif;
+
+}
+
+footer p {
+	color: #cbc8c5;
+}
+
+article {
+		padding: 2rem 0rem 2rem 2rem;
+		width: 63vw;
+}
+
+img {
+	width: 60vw;
+}
