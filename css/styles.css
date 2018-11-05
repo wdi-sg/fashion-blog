@@ -1,0 +1,118 @@
+body{
+
+	font-family: 'Raleway', serif;
+}
+
+.container{
+	max-width: 1000px;
+	margin:30px auto;
+}
+
+.row{
+	max-width: 80%;
+	margin:auto;
+	border-left: lightgrey solid 5px;
+	padding:0 30px;
+}
+
+img{
+	max-width:100%;
+}
+
+h1 a{
+	color: red;
+	text-decoration: none;
+	font-size: 1.25em;
+}
+
+header nav{
+	margin: 20px 0 0 0 ;
+
+
+}
+
+header nav a{
+	margin: 0 20px 0 0;
+	color: lightgrey;
+	font-size: 1.2em;
+	text-decoration: underline;;
+
+}
+
+article h3{
+	color:lightgrey;
+	font-size: 2.5em;
+	padding-top: 40px;
+}
+
+h2 a{
+	color:black;
+}
+
+p::first-letter { 
+	font-size: 8em;
+	color: lightgrey;
+	float: left;
+	line-height: .7em;
+	margin-right: 5px;
+}
+
+article p{
+	padding: 20px 0 20px 0 ;
+}
+
+article h4{
+	overflow: auto;
+}
+
+article h4 a {
+	color:red;
+	float: right;
+}
+
+article {
+	border-bottom: lightgrey solid 1px;	
+}
+
+
+footer nav{
+	margin: 50px 0 0 0 ;
+
+
+}
+
+footer nav a{
+	color: red;
+	text-decoration: none;;
+}
+
+footer nav a:after{
+	content: "|";
+	margin-left: 5px;
+	color:red;
+}
+
+footer nav a:last-child:after{
+	content: "";
+}
+
+.copyright{
+	color:grey;
+	margin-top: 10px;
+}
+
+@media screen and (max-width: 768px) {
+	.row {
+		border-left: none;
+		padding: 0;
+		max-width: 90%;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.row {
+		border-left: none;
+		padding: 0;
+		max-width: 95%;
+	}
+}
