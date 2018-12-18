@@ -1,0 +1,108 @@
+body {
+  font-family: "Raleway", "Times New Roman", Times, serif;
+  max-width: 80%;
+  margin: auto;
+}
+
+header > h1 {
+  margin-bottom: 10px;
+}
+
+header > h1 > a {
+  text-decoration: none;
+  color: rgba(208, 5, 5, 0.872);
+  font-size: 40px;
+  border-width: 10px;
+  margin-bottom: 5px;
+  padding: 0px;
+  font-weight: 700;
+}
+
+header > h2 {
+  font-size: 20px;
+  border: 2px;
+  padding: 0px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+header > nav > a {
+  display: inline-block;
+  padding-right: 13px;
+  color: rgba(128, 128, 128, 0.3);
+  font-weight: 700;
+}
+
+article > h3 {
+  font-size: 32px;
+  color: rgba(128, 128, 128, 0.4);
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+article > h2 > a {
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+  border-width: 10px;
+  margin-top: 10px;
+  padding: 0px;
+  font-weight: 500;
+}
+
+article > img {
+  height: 200px;
+  width: 100%;
+}
+
+article {
+    width: 80%;
+
+}
+
+article > p::first-letter {
+    color: rgba(128, 128, 128, 0.3);
+    float: left;
+    font-size: 75px;
+    line-height: 60px;
+    padding-top: 4px;
+    padding-right: 8px;
+    padding-left: 3px;
+    font-weight: 100;
+}
+
+article > h4 {
+    text-align: right;
+}
+
+article > h4 > a {
+    /* text-align: right; */
+    text-decoration: none;
+    color: rgba(208, 5, 5, 0.872);
+    font-weight: 900;
+}
+
+footer > ul {
+    margin-left: 0;
+    padding: 0px;
+}
+
+footer > ul > li {
+    display: inline-block;
+    color: rgba(208, 5, 5, 0.872);
+    border-right: 2px solid rgb(157, 154, 154);
+    text-decoration: none;
+    text-align: left;
+    padding: 5px;
+    font-size: 16px;
+    line-height: 14px;
+}
+
+footer > p {
+    color: rgba(128, 128, 128, 0.5);
+    font-weight: 800;
+}
+
+@media (min-width: 600) {
+
+}
