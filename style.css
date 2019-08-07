@@ -159,7 +159,7 @@ footer > p {
   position: absolute;
   left: 0;
   background-color: red;
-  width: 100%;
+  width: 80%;
   z-index: 1;
 }
 
