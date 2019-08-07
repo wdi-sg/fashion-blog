@@ -33,6 +33,13 @@ header > div > a {
   font-weight: 700;
 }
 
+header > div > div > a {
+  display: inline-block;
+  padding-right: 13px;
+  color: rgba(128, 128, 128, 0.3);
+  font-weight: 700;
+}
+
 article > h3 {
   font-size: 32px;
   color: rgba(128, 128, 128, 0.4);
