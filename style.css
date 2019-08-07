@@ -26,7 +26,7 @@ header > h2 {
   margin-bottom: 15px;
 }
 
-header > nav > a {
+header > div > a {
   display: inline-block;
   padding-right: 13px;
   color: rgba(128, 128, 128, 0.3);
